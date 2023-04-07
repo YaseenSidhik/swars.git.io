@@ -1,0 +1,380 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    background-color: #FAA0A0;
+    color: #fff;
+}
+ul
+{
+    list-style-type: none;
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: hidden;
+}
+.navbar
+{
+    background-color: #D2042D;
+    color: #fff;
+    height: 80px;
+}
+.navbar a
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar .logo
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.navbar ul
+{
+    display: flex;
+}
+.navbar li
+{
+    margin-left: 20px;
+}
+.navbar a:hover
+{
+    font-style: italic;
+}
+.header
+{
+    background-color:#D22B2B;
+    padding: 30px;
+    line-height: 2em;
+    text-align: center;
+}
+img
+{
+    max-width: 100%;
+}
+.header img
+{
+    max-width: 600px;
+}
+.header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header p
+{
+    font-size: 20px;
+}
+.header h1
+{
+    margin-bottom: 10px;
+}
+.divisions
+{
+   background-color: #FF3131; 
+   padding: 20px;
+}
+.divisions .container
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box
+{
+    background-color: #9A2A2A;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box:nth-child(2)
+{
+    order: 1;
+}
+.box:nth-child(1)
+{
+    order: 2;
+}
+.box:nth-child(3)
+{
+    order: 3;
+}
+.box ul
+{
+    list-style: circle;
+}
+.original
+{
+    height: auto;
+    width: 1300px;
+}
+.post
+{
+    height: auto;
+    width: 1300px;
+}
+.beginning
+{
+    background-color:#D22B2B;
+    padding: 30px;
+    line-height: 2em;
+    text-align: justify;
+}
+.beginning h2{
+  text-align: center;
+  margin: 10px;
+}
+.beginning img
+{
+    max-width: 300px;
+}
+.beginning .container
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.beginning .content
+{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.founder
+{
+   background-color: #FF3131; 
+   padding: 20px;
+   line-height: 1.7;
+}
+.founder img
+{
+    max-width: 400px;
+}
+.founder .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.founder .desc
+{
+    text-align: justify;
+    font-size: 20px;
+}
+.founder h2
+{
+    text-align: center;
+    margin: 10px;
+}
+.legacy
+{
+    background-color: #FF4433;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 20px;
+}
+.legacy h2
+{
+    text-align: center;
+    margin: 10px;
+}
+.legacy p
+{
+    margin: 10px;
+}
+.pre-empire
+{
+    background-color: #D22B2B;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px;
+}
+.pre-empire p
+{
+    margin: 15px;
+}
+.pre-empire h2
+{
+    text-align: center;
+}
+.pre-empire img
+{
+    max-width: 500px;
+}
+.pre-empire .container
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.sith_era
+{
+  background-color:  #FF3131;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 20px;
+  text-align: justify;  
+}
+.sith_era p
+{
+    margin: 15px;
+}
+.sith_era h2
+{
+    text-align: center;
+}
+.sith_era img
+{
+    max-width: 500px;
+}
+.sith_era .container
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.rise_of_republic
+{
+    background-color: #9A2A2A ;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.rise_of_republic p
+{
+    margin: 15px;
+}
+.rise_of_republic h2
+{
+    text-align: center;
+}
+.rise_of_republic img
+{
+    max-width: 500px;
+}
+.rise_of_republic .container
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.age_of_empire
+{
+    background-color:  #FF4433;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.age_of_empire p
+{
+    margin: 15px;
+}
+.age_of_empire h2
+{
+    text-align: center;
+}
+.age_of_empire img
+{
+    max-width: 500px;
+}
+.age_of_empire .container
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.rebellion
+{
+    background-color: #A42A04  ;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.rebellion p
+{
+    margin: 15px;
+}
+.rebellion h2
+{
+    text-align: center;
+}
+.rebellion img
+{
+    max-width: 500px;
+}
+.rebellion .container
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+footer
+{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(248, 7, 7, 0.466);
+    text-align: center;
+}
+
+@media (max-width:1028px) {
+    .header .container
+    {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .divisions .container
+    {
+        display: block;
+    }
+    .box
+    {
+        margin-bottom: 10px;
+    }
+    .navbar .container
+    {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .container
+    {
+        width: 95%;
+    }
+    footer 
+    {
+        padding: 30px;
+    }
+    
+}
